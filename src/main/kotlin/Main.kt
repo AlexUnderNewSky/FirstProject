@@ -1,29 +1,10 @@
+import Tasks.BallTask
+
 fun main() {
-
-    print("Please enter your rating: ")
-    val rating: Int = readln().toInt()
-
-//    for 1 will be - bad
-//    for 2 will be - bad
-//    for 3 will be - normal
-//    for 4 will be - good
-//    for 5 will be - excellent
-
-
-    /*val answer: String = when {
-        rating == 1 || rating == 2 -> "Bad = $rating"
-        rating == 3 -> "Normal = $rating"
-        rating == 4 -> "Good = $rating"
-        rating > 4 && rating <= 10 -> "Excellent = $rating"
-        else -> "Insane = $rating"
-    }
-    println(answer)*/
-
-    val condition1: Boolean = rating == 1 || rating == 2
-
-    println(condition1)
+    BallTask().Ball()
 
 }
+
 
 /*
     var a: Int = 5
@@ -108,3 +89,29 @@ println(sum)*/
         "number 3 is bigger - $number3"
 
     println(answer)*/
+
+
+/*print("Please enter your rating: ")
+val rating: Int = readln().toInt()
+
+//    for 1 will be - bad
+//    for 2 will be - bad
+//    for 3 will be - normal
+//    for 4 will be - good
+//    for 5 will be - excellent
+
+
+*//*val answer: String = when {
+        rating == 1 || rating == 2 -> "Bad = $rating"
+        rating == 3 -> "Normal = $rating"
+        rating == 4 -> "Good = $rating"
+        rating > 4 && rating <= 10 -> "Excellent = $rating"
+        else -> "Insane = $rating"
+    }
+    println(answer)*//*
+
+    val condition1: Boolean = rating == 1 || rating == 2
+
+    println(condition1)
+
+*/
