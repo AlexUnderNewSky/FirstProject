@@ -1,10 +1,24 @@
-import Tasks.BallTask
+//import Tasks.BallTask
 
 fun main() {
-    BallTask().Ball()
+    //BallTask().Ball()
 
+//    data input
+    val a: Int = 13
+    val b: Int = 10
+
+//    finding the maximum number
+    val maxNumber: Int = getMaxNumber(a, b)
+//    data output on screen
+    println(maxNumber)
 }
 
+fun getMaxNumber(firstNumber: Int, secondNumber: Int): Int {
+    return if (firstNumber > secondNumber)
+        firstNumber
+    else
+        secondNumber
+}
 
 /*
     var a: Int = 5
