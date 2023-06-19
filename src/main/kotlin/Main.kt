@@ -4,8 +4,8 @@ fun main() {
     //BallTask().Ball()
 
 //    data input
-    val a: Int = 13
-    val b: Int = 10
+    val a = 13
+    val b = 10
 
 //    finding the maximum number
     val maxNumber: Int = getMaxNumber(a, b)
