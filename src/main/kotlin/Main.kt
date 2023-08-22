@@ -1,7 +1,119 @@
 //import Tasks.BallTask
 
 fun main() {
-    //BallTask().Ball()
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    println(testSimple(3, 10))
+    println(testString(10))
+
+    testNamedArguments(y = 4, z = 2, x = 5)
+
+    testDefaultArguments()
+    testDefaultArguments(y = 1)
+
+    val items = listOf("apple", "banana", "orange")
+
+    var items2 = mutableListOf("ggs", "hi", "buy")
+    items2.addAll(items)
+    println("HI, $items2")
+
+
+
+fun testSimple(x: Int, y: Int): Int = x + y
+
+fun testString(x: Int): String {
+    return "String is $x"
+}
+
+fun testNamedArguments(x: Int, y: Int, z: Int): List<Int> {
+    return listOf(x, y, z)
+}
+
+fun testDefaultArguments(x: Int = 1, y: Int = 2) {
+    println(x + y)
+}*/
+
+
+/*for (item in items)
+    println(item)
+
+var index = 0
+while (index < items.size) {
+    println("Item at $index is ${items[index]}")
+    index++
+    if(index > 2)
+        println("HEHE - BOI")
+}*/
+
+//Диапазоны
+/*println(5 in 3..10)
+if(true){
+    println("da est' zhe")
+}
+
+for (i in 1..10)
+    println(i)
+
+for (i in 1 until 10)
+    println(i)
+
+for (i in 10 downTo 1)
+    println(i)
+
+for (i in 0..100 step 10)
+    println(i)*/
+
+
+/*val numberOfOrders: Int = 42
+
+    var notificationText: String = "Don't forget your mask and gloves!"
+
+    println("$numberOfOrders and $notificationText");
+
+    notificationText = "You don't need masks anymore"
+
+    println("$numberOfOrders and $notificationText");
+
+
+    // целочисленные
+    val intNum1: Int = -2147483648 // 32 bit
+    val intNum2: Int = 2147483647 // 32 bit
+    val longNum: Long = 0 // 64 bit
+    val shortNum: Short = 0 // 16 bit
+    val byteNum: Byte = 0 // 8 bit
+    val unsignedNum: UInt = 2147483648u // 32 bit
+
+    // вещественные
+    val doubleNum: Double = 234.42 // 64 bit
+    val floatNum: Float = 847.2f // 32 bit
+
+    // строковые
+    val stringValue: String = ""
+    val charValue: Char = '1'
+
+    // логические
+    val trueValue: Boolean = true
+    val falseValue: Boolean = false*/
+
+
+/*    //BallTask().Ball()
 
 //    data input
     val a = 13
@@ -17,8 +129,7 @@ fun getMaxNumber(firstNumber: Int, secondNumber: Int): Int {
     return if (firstNumber > secondNumber)
         firstNumber
     else
-        secondNumber
-}
+        secondNumber*/
 
 /*
     var a: Int = 5
